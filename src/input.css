@@ -10,7 +10,3 @@
         animation-delay: 4000ms;
     }
 }
-
-div:hover {
-    transition: all .4s ease-in-out;
-}
