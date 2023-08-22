@@ -907,6 +907,10 @@ video {
   animation-delay: 4s;
 }
 
+div:hover {
+  transition: all 1.5s ease-in-out;
+}
+
 .hover\:h-12:hover {
   height: 3rem;
 }
@@ -918,4 +922,8 @@ video {
 .hover\:translate-x-2:hover {
   --tw-translate-x: 0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:ease-in-out:hover {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
